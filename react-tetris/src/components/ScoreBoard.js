@@ -13,7 +13,7 @@ class ScoreBoard extends Component {
       <button className="score-board-button" onClick={(e) => {
           if (gameOver) { return }
           isRunning ? pause() : resume()
-        }}>{isRunning ? "play" : "pause"}</button>
+        }}>{isRunning ? "pause" : "resume"}</button>
         <button className="score-board-button" onClick={(e) => {
           restart()
           }}>Restart</button>

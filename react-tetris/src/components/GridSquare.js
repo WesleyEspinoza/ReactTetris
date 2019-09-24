@@ -11,4 +11,16 @@ class GridSquare extends Component{
   }
 }
 
+const mapStateToProps = (state) => {
+  return {
+    grid: state.game.grid,
+    shape: state.game.shape,
+    rotation: state.game.rotation,
+    x: state.game.x,
+    y: state.game.y,
+    speed: state.game.speed,
+    isRunning: state.game.isRunning
+  }
+}
+
 export default GridSquare;

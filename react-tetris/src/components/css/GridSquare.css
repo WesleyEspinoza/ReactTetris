@@ -1,0 +1,67 @@
+:root {
+  --bg-color: rgba(150, 150, 150, 1);
+
+  /* Border Colors are all transparent colors. These will tint or shade the background color of the square. */
+  --border-left-color: rgba(255, 255, 255, 0.20);
+  --border-top-color: rgba(255, 255, 255, 0.33);
+  --border-right-color: rgba(0, 0, 0, 0.15);
+  --border-bottom-color: rgba(0, 0, 0, 0.5);
+  /* Square Colors:  background colors for the squares.*/
+  --color0: #eaeaea;
+  --color1: #ff6600;
+  --color2: #eec900;
+  --color3: #0000ff;
+  --color4: #cc00ff;
+  --color5: #00ff00;
+  --color6: #66ccff;
+  --color7: #ff0000;
+  /* Button Colors */
+  --button-color-t: rgba(200, 200, 200, 1);
+  --button-color-r: rgb(31, 9, 9);
+  --button-color-b: rgba(120, 120, 120, 1);
+  --button-color-l: rgba(222, 222, 222, 1);
+  /* Numbers define values that will be used throughout the CSS.
+  --tile-size: 20px for example will set size of the grid squares. */
+  --cols: 10;
+  --rows: 18;
+  --tile-size: 20px;
+  --border-width: 5px;
+}
+
+/* Grid Square */
+.grid-square {
+  border-style: solid;
+  width: var(--tile-size);
+  height: var(--tile-size);
+  border-width: var(--border-width);
+  border-left-color: var(--border-left-color);
+  border-top-color: var(--border-top-color);
+  border-right-color: var(--border-right-color);
+  border-bottom-color: var(--border-bottom-color);
+}
+
+/* Colors */
+.color0 {
+  background-color: var(--color0);
+}
+.color1 {
+  background-color: var(--color1);
+}
+.color2 {
+  background-color: var(--color2);
+}
+.color3 {
+  background-color: var(--color3);
+}
+.color4 {
+  background-color: var(--color4);
+}
+.color5 {
+  background-color: var(--color5);
+}
+.color6 {
+  background-color: var(--color6);
+}
+.color7 {
+  background-color: var(--color7);
+}
